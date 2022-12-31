@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,18 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* google fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Outfit:wght@800&display=swap");
+
+
+.heading {
+  color: #c4cfde;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.70rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 100px;
 }

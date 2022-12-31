@@ -1,0 +1,176 @@
+.skills h2 {
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.progress-bar {
+    background: #a1abb9;
+    height: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.progress-bar div {
+    /* background: #ff014f; */
+    background: linear-gradient(to right, #17d396, #07f7f7);
+    height: 10px;
+    width: 0%;
+    border-radius: 5px;
+}
+
+.progress-bar div span {
+    font-weight: bold;
+    color: white;
+    background: #212428 ;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-c-plus-plus{
+    animation: c-c-plus-plus 1.5s linear forwards;
+}
+
+.c-c-plus-plus span{
+    border: 1px solid #07f7f7;
+}
+
+@keyframes c-c-plus-plus{
+    100%{
+        width: 82%;
+    }
+}
+
+.python{
+    animation: python 1.5s linear forwards;
+}
+
+.python span{
+    border: 1px solid #07f7f7;
+}
+
+@keyframes python{
+    100%{
+        width: 72%;
+    }
+}
+
+.html5{
+    animation: html5 1.5s linear forwards;
+}
+
+.html5 span{
+    border: 1px solid #07f7f7;
+}
+
+@keyframes html5{
+    100%{
+        width: 90%;
+    }
+}
+
+.css3{
+    animation: css3 1.5s linear forwards;
+}
+
+.css3 span{
+    border: 1px solid #07f7f7;
+}
+
+@keyframes css3{
+    100%{
+        width: 70%;
+    }
+}
+
+.javascript{
+    animation: javascript 1.5s linear forwards;
+}
+
+.javascript span{
+    border: 1px solid #07f7f7;
+}
+
+@keyframes javascript{
+    100%{
+        width: 65%;
+    }
+}
+
+.reactjs{
+    animation: reactjs 1.5s linear forwards;
+}
+
+.reactjs span{
+    border: 1px solid #07f7f7;
+}
+
+@keyframes reactjs{
+    100%{
+        width: 80%;
+    }
+}
+
+.react-native{
+    animation: react-native 1.5s linear forwards;
+}
+
+.react-native span{
+    border: 1px solid #07f7f7;
+}
+
+@keyframes react-native{
+    100%{
+        width: 30%;
+    }
+}
+
+.nodejs{
+    animation: nodejs 1.5s linear forwards;
+}
+
+.nodejs span{
+    border: 1px solid #07f7f7;
+}
+
+@keyframes nodejs{
+    100%{
+        width: 70%;
+    }
+}
+
+.sql{
+    animation: sql 1.5s linear forwards;
+}
+
+.sql span{
+    border: 1px solid #07f7f7;
+}
+
+@keyframes sql{
+    100%{
+        width: 85%;
+    }
+}
+
+.mongodb{
+    animation: mongodb 1.5s linear forwards;
+}
+
+.mongodb span{
+    border: 1px solid #07f7f7;
+}
+
+@keyframes mongodb{
+    100%{
+        width: 75%;
+    }
+}

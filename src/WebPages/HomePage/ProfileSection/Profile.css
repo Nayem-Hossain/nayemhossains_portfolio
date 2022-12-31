@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Outfit:wght@800&display=swap');
+
+.intro{
+    color: #c4cfde;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+#name-prefix{
+    color: #ffffff;
+    font-family: "Montserrat",sans-serif;
+    font-size: 3.75rem;
+    font-weight: 700;
+}
+#full-name{
+    background: linear-gradient(to right, #17d396, #07f7f7);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Montserrat",sans-serif;
+    font-size: 3.75rem;
+    font-weight: 700;
+}
+#type-writter{
+    color: #fff;
+    font-family: "Montserrat",sans-serif;
+    font-size: 2.75rem;
+    font-weight: 600;
+
+}
+
+.paragraph{
+    color: #c4cfde;
+    font-family: "poppins",sans-serif;
+    font-size: 1rem;
+    line-height: 1.875rem;
+}
