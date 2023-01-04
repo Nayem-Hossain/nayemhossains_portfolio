@@ -5,6 +5,7 @@ import Profile from "./ProfileSection/Profile";
 import Footer from "../../SharedComponents/Footer/Footer";
 import ProfessionalResume from "./ProfessionalResume/ProfessionalResume";
 import Profession from "./What_I_do/Profession";
+import Portfolio from "./PortfolioSection/Portfolio";
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <Profile></Profile>
       <Profession></Profession>
       <ProfessionalResume></ProfessionalResume>
+      <Portfolio></Portfolio>
       <Footer></Footer>
     </div>
   );
