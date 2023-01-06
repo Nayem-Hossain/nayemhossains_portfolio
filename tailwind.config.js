@@ -3,11 +3,11 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     screens: {
-      xm: '375px',
-      sm: '480px',
-      md: '768px',
-      lg: '976px',
-      xl: '1440px',
+      xm: "375px",
+      sm: "480px",
+      md: "768px",
+      lg: "976px",
+      xl: "1440px",
     },
     extend: {},
     colors: {
@@ -22,6 +22,7 @@ module.exports = {
     },
   },
   plugins: [require("daisyui")],
+
   daisyui: {
     themes: [
       {
@@ -31,7 +32,6 @@ module.exports = {
           "base-100": "#212428",
           "base-content": "#c4cfde",
           "primary-focus": "mediumblue",
-          
         },
       },
     ],

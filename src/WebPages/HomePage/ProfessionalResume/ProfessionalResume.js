@@ -46,7 +46,7 @@ const ProfessionalResume = ({ color = " from-[#2361ff] to-[#07f7f7]" }) => {
     //   </Routes>
     // </section>
 
-    <section className="mx-auto lg:w-9/12">
+    <section id="resume" className="mx-auto lg:w-9/12">
       <h1 className="heading">Professional Resume</h1>
       <div className="flex flex-wrap">
         <div className="w-full">
@@ -91,7 +91,8 @@ const ProfessionalResume = ({ color = " from-[#2361ff] to-[#07f7f7]" }) => {
                 href="#link2"
                 role="tablist"
               >
-                <i class="fa-solid fa-award text-base mr-1"></i> Certifications
+                <i className="fa-solid fa-award text-base mr-1"></i>{" "}
+                Certifications
               </a>
             </li>
 
@@ -111,7 +112,8 @@ const ProfessionalResume = ({ color = " from-[#2361ff] to-[#07f7f7]" }) => {
                 href="#link3"
                 role="tablist"
               >
-                <i className="fa-solid fa-graduation-cap text-base mr-1"></i> Educations
+                <i className="fa-solid fa-graduation-cap text-base mr-1"></i>{" "}
+                Educations
               </a>
             </li>
 
@@ -131,7 +133,8 @@ const ProfessionalResume = ({ color = " from-[#2361ff] to-[#07f7f7]" }) => {
                 href="#link4"
                 role="tablist"
               >
-                <i className="fa-solid fa-house-laptop text-base mr-1"></i> Work Experiences
+                <i className="fa-solid fa-house-laptop text-base mr-1"></i> Work
+                Experiences
               </a>
             </li>
           </ul>

@@ -23,9 +23,10 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
   <title>Md. Nayem Hossain</title>
-  
+
   <!-- Added Tailwind CSS because of Create React APP does not support tailwind postcss-import  -->
   <script src="https://cdn.tailwindcss.com"></script>
+
   <!-- AOS CSS CDN -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
@@ -50,8 +51,49 @@
 
 
 
+  <!-- navbar collapse -->
+  <!-- <script>
+    // Burger menus
+    document.addEventListener('DOMContentLoaded', function () {
+      // open
+      const burger = document.querySelectorAll('.navbar-burger');
+      const menu = document.querySelectorAll('.navbar-menu');
 
+      if (burger.length && menu.length) {
+        for (var i = 0; i < burger.length; i++) {
+          burger[i].addEventListener('click', function () {
+            for (var j = 0; j < menu.length; j++) {
+              menu[j].classList.toggle('hidden');
+            }
+          });
+        }
+      }
 
+      // close
+      const close = document.querySelectorAll('.navbar-close');
+      const backdrop = document.querySelectorAll('.navbar-backdrop');
+
+      if (close.length) {
+        for (var i = 0; i < close.length; i++) {
+          close[i].addEventListener('click', function () {
+            for (var j = 0; j < menu.length; j++) {
+              menu[j].classList.toggle('hidden');
+            }
+          });
+        }
+      }
+
+      if (backdrop.length) {
+        for (var i = 0; i < backdrop.length; i++) {
+          backdrop[i].addEventListener('click', function () {
+            for (var j = 0; j < menu.length; j++) {
+              menu[j].classList.toggle('hidden');
+            }
+          });
+        }
+      }
+    });
+  </script> -->
 
   <!-- AOS script CDN -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

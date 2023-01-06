@@ -5,7 +5,10 @@ import TypewritterAnimation from "./TypewritterAnimation";
 
 const Profile = () => {
   return (
-    <section className="lg:mx-12 flex flex-col-reverse lg:flex-row items-center pt-16 pb-24 border-b-2 border-gray-600">
+    <section
+      id="profile"
+      className="lg:mx-12 flex flex-col-reverse lg:flex-row items-center pt-16 pb-24 border-b-2 border-gray-600"
+    >
       <div className="lg:w-1/2">
         <p className="intro">Welcome to My World</p>
         <h1 id="full-name">
@@ -24,7 +27,7 @@ const Profile = () => {
           data-aos-duration="3000"
         >
           <button className="btn glass lg:mr-6 rounded-full btn-text-white">
-            See My Resume<i class="fa-solid fa-file-pdf ml-2"></i>
+            See My Resume<i className="fa-solid fa-file-pdf ml-2"></i>
           </button>
           <button className="btn glass rounded-full btn-text-white">
             Star Me on Github <i className="fa-brands fa-github ml-2"></i>

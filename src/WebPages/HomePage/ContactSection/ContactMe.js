@@ -2,12 +2,15 @@ import React from "react";
 
 const ContactMe = () => {
   return (
-    <section className="min-h-screen bg-gradient-to-r from-[#212428] via-[#1a1d20] to-[#15171a] dark:from-gray-700 dark:via-gray-800 dark:to-gray-900 ">
+    <section
+      id="contact_form"
+      className="min-h-screen bg-gradient-to-r from-[#212428] via-[#1a1d20] to-[#15171a] dark:from-gray-700 dark:via-gray-800 dark:to-gray-900 "
+    >
       <div className="container flex flex-col min-h-screen px-6 py-12 mx-auto">
         <div className="flex-1 lg:flex lg:items-center lg:-mx-6">
           <div className="text-white lg:w-1/2 lg:mx-6">
             <h1 className="text-3xl font-semibold capitalize lg:text-4xl">
-              Contact Me 
+              Contact Me
             </h1>
 
             <p className="max-w-xl mt-6">
@@ -79,7 +82,7 @@ const ContactMe = () => {
                 </svg>
 
                 <span className="mx-2 text-white truncate w-72">
-                nayem.hossain7298@gmail.com
+                  nayem.hossain7298@gmail.com
                 </span>
               </p>
             </div>
@@ -90,7 +93,9 @@ const ContactMe = () => {
               <div className="flex mt-4 -mx-1.5">
                 <a
                   className="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500"
-                  href="https://twitter.com/nayem183007" target="_blank" rel="noreferrer"
+                  href="https://twitter.com/nayem183007"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   <svg
                     className="w-10 h-10 fill-current"
@@ -104,7 +109,9 @@ const ContactMe = () => {
 
                 <a
                   className="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500"
-                  href="https://www.linkedin.com/in/md-nayem-hossain-937052193/" target="_blank" rel="noreferrer"
+                  href="https://www.linkedin.com/in/md-nayem-hossain-937052193/"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   <svg
                     className="w-8 h-8"
@@ -129,7 +136,9 @@ const ContactMe = () => {
 
                 <a
                   className="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500"
-                  href="http://www.facebook.com/nayem.hossain.183007/" target="_blank" rel="noreferrer"
+                  href="http://www.facebook.com/nayem.hossain.183007/"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   <svg
                     className="w-8 h-8"
@@ -176,6 +185,7 @@ const ContactMe = () => {
                     Full Name
                   </label>
                   <input
+                    required
                     type="text"
                     placeholder="Enter your name"
                     className="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-[#191d24] dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
@@ -187,6 +197,7 @@ const ContactMe = () => {
                     Email address
                   </label>
                   <input
+                    required
                     type="email"
                     placeholder="Enter your email"
                     className="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-[#191d24] dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
@@ -198,6 +209,7 @@ const ContactMe = () => {
                     Message
                   </label>
                   <textarea
+                    required
                     className="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:bg-[#191d24] dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring"
                     placeholder="Message"
                   ></textarea>
