@@ -6,18 +6,21 @@ import Footer from "../../SharedComponents/Footer/Footer";
 import ProfessionalResume from "./ProfessionalResume/ProfessionalResume";
 import Profession from "./What_I_do/Profession";
 import Portfolio from "./PortfolioSection/Portfolio";
-
+import ContactMe from "./ContactSection/ContactMe";
 
 const Home = () => {
   return (
-    <div className="bg-darkBackground">
+    <section>
       <Navbar></Navbar>
-      <Profile></Profile>
-      <Profession></Profession>
-      <ProfessionalResume></ProfessionalResume>
-      <Portfolio></Portfolio>
+      <div className="sm:mx-4">
+        <Profile></Profile>
+        <Profession></Profession>
+        <ProfessionalResume></ProfessionalResume>
+        <Portfolio></Portfolio>
+      </div>
+      <ContactMe></ContactMe>
       <Footer></Footer>
-    </div>
+    </section>
   );
 };
 

@@ -4,7 +4,7 @@ import Me from "../../images/me_wbg.png";
 
 const Navbar = () => {
   return (
-    <header className="navbar">
+    <header className="navbar sticky top-0 z-10 xm:p-0 bg-gradient-to-r from-[#17d396] to-[#07f7f7]">
       <div className="flex-1">
         <div className="mx-1.5">
           <label tabIndex={0} className="btn btn-ghost btn-circle avatar online">
@@ -21,7 +21,7 @@ const Navbar = () => {
         </div>
         <p
           id="signature"
-          className="text-2xl font-bold"
+          className="text-2xl font-bold text-gray-700"
           data-aos="flip-left"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"

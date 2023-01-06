@@ -2,39 +2,12 @@ import React from "react";
 
 const Profession = () => {
   return (
-    // <section>
-    //   <div className="">
-    //     <h1 className="heading">What I Do ?</h1>
-    //     <div></div>
-    //   </div>
-    // </section>
-
-    <section class="pt-20">
-      <div class="">
-        {/* <div class="-mx-4 flex flex-wrap">
-      <div class="w-full px-4">
-        <div class="mx-auto mb-12 max-w-[510px] text-center lg:mb-20">
-          <span class="text-primary mb-2 block text-lg font-semibold">
-            My Services
-          </span>
-          <h2
-            class="text-dark mb-4 text-3xl font-bold sm:text-4xl md:text-[40px]"
-          >
-            What I Do ?
-          </h2>
-          <p class="text-body-color text-base">
-            There are many variations of passages of Lorem Ipsum available but
-            the majority have suffered alteration in some form.
-          </p>
-        </div>
-      </div>
-    </div> */}
-
-        <div class="flex flex-wrap justify-center -mx-4 sm:grid-cols-1 ">
+    <section class="my-20">
+        <div class="lg:flex justify-center sm:grid-cols-1">
           <h1 className="lg:w-2/5 heading">What I Do ?</h1>
-          <div className="grid lg:grid-cols-2 mt-6">
-            <div class="w-full px-4">
-              <div class="hvr-sweep-to-bottom border mb-8 rounded-[20px] bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
+          <div className="grid lg:grid-cols-2">
+            <div class="w-full p-2">
+              <div class="hvr-sweep-to-bottom border m-4 rounded-[20px] bg-white p-8 shadow-md hover:shadow-lg md:px-6 xl:px-8">
                 <div class="bg-gradient-to-r from-[#17d396] to-[#07f7f7] mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -57,8 +30,8 @@ const Profession = () => {
               </div>
             </div>
 
-            <div class="w-full px-4 ">
-              <div class="hvr-sweep-to-bottom border mb-8 rounded-[20px] bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
+            <div class="w-full p-2 ">
+              <div class="hvr-sweep-to-bottom border m-4 rounded-[20px] bg-white p-8 shadow-md hover:shadow-lg md:px-6 xl:px-8">
                 <div class="bg-gradient-to-r from-[#17d396] to-[#07f7f7] mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -81,8 +54,8 @@ const Profession = () => {
                 <p class="text-body-color"></p>
               </div>
             </div>
-            <div class="w-full px-4 ">
-              <div class="hvr-sweep-to-bottom border mb-8 rounded-[20px] bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
+            <div class="w-full p-2 ">
+              <div class="hvr-sweep-to-bottom border m-4 rounded-[20px] bg-white p-8 shadow-md hover:shadow-lg md:px-6 xl:px-8">
                 <div class="bg-gradient-to-r from-[#17d396] to-[#07f7f7] mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -106,8 +79,8 @@ const Profession = () => {
               </div>
             </div>
 
-            <div class="w-full px-4 ">
-              <div class="hvr-sweep-to-bottom border mb-8 rounded-[20px] bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
+            <div class="w-full p-2 ">
+              <div class="hvr-sweep-to-bottom border m-4 rounded-[20px] bg-white p-8 shadow-md hover:shadow-lg md:px-6 xl:px-8">
                 <div class="bg-gradient-to-r from-[#17d396] to-[#07f7f7] mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -132,7 +105,6 @@ const Profession = () => {
             </div>
           </div>
         </div>
-      </div>
     </section>
   );
 };

@@ -5,22 +5,19 @@
     letter-spacing: 3px;
     text-transform: uppercase;
 }
-#name-prefix{
+#full-name{
     color: #ffffff;
     font-family: "Montserrat",sans-serif;
     font-size: 3.75rem;
     font-weight: 700;
 }
-#full-name{
+.color-name{
     background: linear-gradient(to right, #17d396, #07f7f7);
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: "Montserrat",sans-serif;
-    font-size: 3.75rem;
-    font-weight: 700;
 }
 #type-writter{
-    color: #fff;
+    color: #ffffff;
     font-family: "Montserrat",sans-serif;
     font-size: 2.75rem;
     font-weight: 600;
@@ -28,7 +25,6 @@
 }
 
 .paragraph{
-    color: #c4cfde;
     font-family: "poppins",sans-serif;
     font-size: 1rem;
     line-height: 1.875rem;

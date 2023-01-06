@@ -128,7 +128,7 @@ const Portfolio = () => {
 
           <div className="card-body lg:w-3/5">
             <h2 className="card-title">Travelling Site</h2>
-            <p>
+            <p className="text-justify">
               This is an online tourism service platform. Users can book a
               travel package & also cancel the order. Admin can add a new travel
               package and update the customer's orders.
@@ -175,7 +175,7 @@ const Portfolio = () => {
 
           <div className="card-body lg:w-3/5">
             <h2 className="card-title">AutoPro Car Website</h2>
-            <p>
+            <p  className="text-justify">
               It’s an organized online CAR selling system website. Here is a
               dashboard for users & admin to maintain their activities. Admin
               can add new products, delete orders, & manage orders. Users can
@@ -224,7 +224,7 @@ const Portfolio = () => {
 
           <div className="card-body lg:w-3/5">
             <h2 className="card-title">DentalCare Website</h2>
-            <p>
+            <p  className="text-justify">
               This is an online dental treatment services platform. Users can
               take an appointment with any doctor for a specific dental
               treatment and can see all consultant profiles.

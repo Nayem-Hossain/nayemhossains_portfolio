@@ -3,13 +3,15 @@ import "./ProfessionalSkills.css";
 
 const ProfessionalSkills = () => {
   return (
-    <section className="my-14">
-      <div className="flex lg:justify-evenly">
+    <section>
+      <div className="grid lg:flex lg:justify-evenly">
+
         {/* Language Skills */}
-        <div className="skills grid grid-cols-1 w-1/3">
-          <h1 className="text-4xl text-gray-700 font-bold mt-6 mb-12">
+        <div className="skills grid grid-cols-1 lg:w-2/5">
+          <h1 className="text-4xl font-bold mt-6 mb-12">
             Language Skills
           </h1>
+
           <div className="mb-4" data-aos="fade-right" data-aos-easing= "ease-in-out" data-aos-duration="500">
             <h2>C/C++</h2>
             <div className="progress-bar">
@@ -18,6 +20,7 @@ const ProfessionalSkills = () => {
               </div>
             </div>
           </div>
+
           <div className="mb-4" data-aos="fade-right" data-aos-easing= "ease-in-out" data-aos-duration="800">
             <h2>Python</h2>
             <div className="progress-bar">
@@ -26,6 +29,7 @@ const ProfessionalSkills = () => {
               </div>
             </div>
           </div>
+
           <div className="mb-4" data-aos="fade-right" data-aos-easing= "ease-in-out" data-aos-duration="1100">
             <h2>HTML5</h2>
             <div className="progress-bar">
@@ -34,6 +38,7 @@ const ProfessionalSkills = () => {
               </div>
             </div>
           </div>
+
           <div className="mb-4" data-aos="fade-right" data-aos-easing= "ease-in-out" data-aos-duration="1400">
             <h2>CSS3</h2>
             <div className="progress-bar">
@@ -42,6 +47,7 @@ const ProfessionalSkills = () => {
               </div>
             </div>
           </div>
+
           <div className="mb-4" data-aos="fade-right" data-aos-easing= "ease-in-out" data-aos-duration="1700">
             <h2>JavaScript</h2>
             <div className="progress-bar">
@@ -50,11 +56,13 @@ const ProfessionalSkills = () => {
               </div>
             </div>
           </div>
+
         </div>
 
         {/* Stack Skills */}
-        <div className="skills grid grid-cols-1 w-1/3">
-          <h1 className="text-4xl text-gray-700 font-bold mt-6 mb-12">
+        <div className="skills grid grid-cols-1 lg:w-2/5">
+
+          <h1 className="text-4xl font-bold mt-6 mb-12">
             Stack Skills
           </h1>
 
@@ -102,7 +110,9 @@ const ProfessionalSkills = () => {
               </div>
             </div>
           </div>
+
         </div>
+
       </div>
     </section>
   );

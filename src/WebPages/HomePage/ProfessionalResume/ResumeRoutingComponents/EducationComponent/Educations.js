@@ -10,7 +10,7 @@ const Education = () => {
         data-aos-easing="ease-in-out"
         data-aos-duration="2000"
       >
-        <h3 className="text-4xl text-gray-700 font-bold mt-6 mb-12">
+        <h3 className="text-4xl font-bold mt-6 mb-12">
           Educational History
         </h3>
         <ol>
@@ -39,7 +39,7 @@ const Education = () => {
                   ></path>
                 </svg>
               </div>
-              <div className="px-6 rounded-lg shadow-lg bg-gray-100 ml-3 mb-10 w-full">
+              <div className="px-6 rounded-lg shadow-lg ml-3 mb-10 w-full">
                 <div className="mb-4">
                   <a
                     href="https://www.iiuc.ac.bd/"
@@ -91,7 +91,7 @@ const Education = () => {
                   ></path>
                 </svg>
               </div>
-              <div className="px-6 rounded-lg shadow-lg bg-gray-100 ml-3 mb-10 w-full">
+              <div className="px-6 rounded-lg shadow-lg ml-3 mb-10 w-full">
                 <div className="mb-4">
                   <a
                     href="https://rebotimohanpilotschool.business.site/"

@@ -4,12 +4,11 @@ const Certifications = () => {
   return (
     <section className="grid grid-cols-1 justify-items-center">
       <div
-        
         data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000"
       >
-        <h3 className="text-4xl text-gray-700 font-bold mt-6 mb-12">
+        <h3 className="text-4xl font-bold mt-6 mb-12">
           Certifications
         </h3>
         <ol>
@@ -38,7 +37,7 @@ const Certifications = () => {
                   ></path>
                 </svg>
               </div>
-              <div className="px-6 rounded-lg shadow-lg bg-gray-100 ml-3 mb-10 w-full">
+              <div className="px-6 rounded-lg shadow-lg  ml-3 mb-10 w-full">
                 <div className="mb-4">
                   <a
                     href="https://www.coursera.org/account/accomplishments/certificate/J9A8V2GMRFP7"
@@ -84,7 +83,7 @@ const Certifications = () => {
                   ></path>
                 </svg>
               </div>
-              <div className="px-6 rounded-lg shadow-lg bg-gray-100 ml-3 mb-10 w-full">
+              <div className="px-6 rounded-lg shadow-lg  ml-3 mb-10 w-full">
                 <div className="mb-4">
                   <a
                     href="https://www.coursera.org/account/accomplishments/certificate/CP3398YRWLRH"
@@ -130,7 +129,7 @@ const Certifications = () => {
                   ></path>
                 </svg>
               </div>
-              <div className="px-6 rounded-lg shadow-lg bg-gray-100 ml-3 mb-10 w-full">
+              <div className="px-6 rounded-lg shadow-lg  ml-3 mb-10 w-full">
                 <div className="mb-4">
                   <a
                     href="https://www.coursera.org/account/accomplishments/certificate/9NDZ4HUYF7LN"
